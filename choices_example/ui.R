@@ -1,8 +1,5 @@
 source("choice_help.R")
 
-install.packages("conjoint")
-library(conjoint)
-
 experiment<-expand.grid(
   price<-c("low","medium","high"),
   variety<-c("black","green","red"),
